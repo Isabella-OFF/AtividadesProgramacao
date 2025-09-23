@@ -31,7 +31,7 @@ printf("Quantos pontos turísticos a cidade possui?\n");
 scanf("%d", &pontoturistico1);
 
 
-printf("\n ***** DADOS da CARTA 2 *****A\n");
+printf("\n ***** DADOS da CARTA 2 *****\n");
 
 printf("\nQual letra representa o Estado? \n");
 scanf(" %c", &letraestado2);
@@ -60,7 +60,7 @@ printf("Código: %s\n", codigodacarta1);
 printf("Nome da Cidade: %s\n", nomecidade1);
 printf("População: %d\n", populacao1);
 printf("Área: %.2f Km²\n", area1);
-printf("PIB: %f bilhões de reais\n", pib1);
+printf("PIB: %.2f bilhões de reais\n", pib1);
 printf("Número de Pontos Turísticos: %d\n", pontoturistico1);
 
 printf("\n **** CARTA 2 ****:\n");
