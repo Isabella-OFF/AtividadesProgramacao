@@ -58,7 +58,7 @@ densidadepop1 = populacao1 / area1;
 densidadepop2 = populacao2 / area2;
 
 pibpercapita1 = pib1 / populacao1;
-pibpercapita1 = pib2 / populacao2;
+pibpercapita2 = pib2 / populacao2;
 
 
 printf("CARTA 1:\n");
@@ -83,7 +83,7 @@ printf("Área: %.2f Km²\n", area2);
 printf("PIB: %.2f bilhões de reais\n", pib2);
 printf("Número de Pontos Turísticos: %d\n", pontoturistico2);
 printf("Densidade Populacional: %2.f hab/km²\n", densidadepop2);
-printf("PIB per capita: %.2f reais\n", pibpercapita1);
+printf("PIB per capita: %.2f reais\n", pibpercapita2);
 
 
 return 0;
