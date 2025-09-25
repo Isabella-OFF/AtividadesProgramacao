@@ -2,11 +2,15 @@
 
 int main() {
 
+  /* Declaração das variáveis */
+  
 char letraestado1, letraestado2;
 char codigodacarta1[4], codigodacarta2[4], nomecidade1[60], nomecidade2[60];
 int populacao1, populacao2, pontoturistico1, pontoturistico2;
 float area1, area2, pib1, pib2;
-
+  
+/* Uso do printf para interagir com o usuário e uso do scanf para receber os dados da carta 1 */
+  
 printf(" ***** DADOS da CARTA 1 ***** \n");
 
 printf("\nQual letra representa o Estado? \n");
@@ -30,7 +34,8 @@ scanf("%f", &pib1);
 printf("Quantos pontos turísticos a cidade possui?\n");
 scanf("%d", &pontoturistico1);
 
-
+/* Uso do printf para interagir com o usuário e uso do scanf para receber os dados da carta 2 */
+  
 printf("\n ***** DADOS da CARTA 2 *****\n");
 
 printf("\nQual letra representa o Estado? \n");
@@ -54,6 +59,8 @@ scanf("%f", &pib2);
 printf("Quantos pontos turísticos a cidade possui?\n");
 scanf("%d", &pontoturistico2);
 
+/* Saída dos dados da Carta 1 */
+  
 printf("\n **** CARTA 1 ****:\n");
 printf("Estado: %c\n", letraestado1);
 printf("Código: %s\n", codigodacarta1);
@@ -63,6 +70,8 @@ printf("Área: %.2f Km²\n", area1);
 printf("PIB: %.2f bilhões de reais\n", pib1);
 printf("Número de Pontos Turísticos: %d\n", pontoturistico1);
 
+/* Saída dos dados da Carta 2 */
+  
 printf("\n **** CARTA 2 ****:\n");
 printf("Estado: %c\n", letraestado2);
 printf("Código: %s\n", codigodacarta2);
